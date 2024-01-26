@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/customers/{customerId}": {
+      "name": "/customers/{customerId}",
+      "lambdaFunction": "reactapp84f61052",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

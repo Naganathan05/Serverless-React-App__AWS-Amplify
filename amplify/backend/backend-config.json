@@ -1,0 +1,43 @@
+{
+  "api": {
+    "api7a26f5dc": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "reactapp84f61052"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    }
+  },
+  "function": {
+    "reactapp84f61052": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_reactapp84f61052_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "reactapp84f61052"
+        }
+      ]
+    },
+    "AMPLIFY_function_reactapp84f61052_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "reactapp84f61052"
+        }
+      ]
+    }
+  }
+}
